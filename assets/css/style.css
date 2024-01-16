@@ -36,25 +36,31 @@ body::before {
   animation-iteration-count: infinite;
   animation-play-state: running;
   animation-timing-function: ease ease-in-out;
+  animation: animate 6s infinite;
 }
 
 @keyframes animate {
   0% {
-    background-image: url(/assets/img/unsplash6.jpg);
+    opacity: 1;
   }
   20% {
+    opacity: 0;
     background-image: url(/assets/img/unsplash4.jpg);
   }
   40% {
+    opacity: 1;
     background-image: url(/assets/img/unsplash5.jpg);
   }
   60% {
+    opacity: 0;
     background-image: url(/assets/img/unsplash3.jpg);
   }
  80% {
+    opacity: 1;
     background-image: url(/assets/img/unsplash2.jpg);
   }
   100% {
+    opacity: 0;
     background-image: url(/assets/img/unsplash6.jpg);
   }
 }
