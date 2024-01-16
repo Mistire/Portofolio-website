@@ -36,7 +36,6 @@ body::before {
   animation-iteration-count: infinite;
   animation-play-state: running;
   animation-timing-function: ease ease-in-out;
-  animation: animate 6s infinite;
 }
 
 @keyframes animate {
