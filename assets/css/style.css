@@ -48,11 +48,14 @@ body::before {
   40% {
     background-image: url(/assets/img/unsplash5.jpg);
   }
-  80% {
+  60% {
     background-image: url(/assets/img/unsplash3.jpg);
   }
- 100% {
+ 80% {
     background-image: url(/assets/img/unsplash2.jpg);
+  }
+  100% {
+    background-image: url(/assets/img/unsplash6.jpg);
   }
 }
 
